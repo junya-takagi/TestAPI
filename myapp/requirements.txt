@@ -1,2 +1,4 @@
 fastapi
-uvicorn[standard]
+uvicorn
+pydantic
+requests # クライアント側で使うものですが、サーバー環境に含めても問題ありません
